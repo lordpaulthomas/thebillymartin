@@ -1,0 +1,293 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito);
+* {
+  font-family: 'Bebas Neue', cursive;
+}
+body {
+  background-color: black;
+  height: 100vh;
+}
+
+/* Navbar Section */
+section {
+  height: 100%;
+}
+
+.navbar {
+  background-color: black;
+  text-align: right;
+}
+.nav-item {
+  font-size: 3em;
+  color: white;
+}
+.nav-item:hover {
+  color: rgb(41, 203, 45);
+}
+#logo {
+  height: 5em;
+  width: 7em;
+  background: url('../images/BillyMartin_logo_white3d.png');
+  background-size: cover;
+  background-position: center;
+}
+#logo:hover {
+  height: 5em;
+  width: 7em;
+  background: url('../images/BillyMartin_logo.png');
+  background-size: cover;
+  background-position: center;
+  background-color: rgb(41, 203, 45);
+}
+#nav-button {
+  border: white 2px solid;
+}
+#nav-button:hover {
+  border: rgb(41, 203, 45) 2px solid;
+  box-shadow: 0 0 18px rgb(41, 203, 45);
+}
+.collapse .nav-link {
+  color: white;
+}
+.collapse .nav-link:hover {
+  color: rgb(41, 203, 45);
+}
+
+/* Link Section */
+section {
+  position: relative;
+  background: url('../images/Grey_Grunge4.jpg');
+  height: 100%;
+  text-align: center;
+}
+.black-layer {
+  background-color: rgba(2, 2, 2, 0.9);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+label h3 {
+  padding: 5px;
+  color: white;
+}
+label h3:hover {
+  color: rgb(41, 203, 45);
+}
+.card {
+  margin: 1em;
+  width: 18rem;
+}
+.card-body {
+  background-color: black;
+}
+
+section a {
+  color: white;
+}
+section a:hover {
+  color: rgb(41, 203, 45);
+  text-decoration: none;
+}
+.card:hover {
+  border: rgb(41, 203, 45) solid 0.5em;
+  box-shadow: 0 0 18px rgb(41, 203, 45);
+  color: rgb(41, 203, 45);
+}
+
+a h5 {
+  font-size: 2em;
+}
+
+/* Form Section */
+.contact {
+  color: white;
+  background: url('../images/Victorian_Wallpaper.jpg');
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+.contact-overlay {
+  background-color: rgba(2, 2, 2, 0.8);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex: wrap;
+  justify-content: center;
+}
+form {
+  padding-top: 2rem;
+  height: 75vh;
+  width: 50%;
+}
+#btn {
+  background: black;
+  color: white;
+  border: rgb(41, 203, 45) solid 1px;
+  width: 100%;
+}
+
+#btn:hover {
+  background: rgb(41, 203, 45);
+  color: black;
+  font-weight: bold;
+  border: rgb(0, 0, 0, 0.7) solid 1px;
+  box-shadow: 0 0 5px rgb(41, 203, 45), 0 0 25px rgb(41, 203, 45),
+    0 0 50px rgb(41, 203, 45), 0 0 200px rgb(41, 203, 45);
+}
+label {
+  font-size: 3em;
+}
+
+#twitch-box {
+  width: auto;
+  height: auto;
+  padding-left: 1em;
+}
+#twitch-box:before {
+  content: 'Latest on Twitch';
+  position: absolute;
+  mix-blend-mode: initial;
+  float: left;
+  padding: 0.1em;
+  color: black;
+  font-size: 20px;
+  background-color: rgb(225, 225, 225, 0.74);
+}
+.youtube-box {
+  width: auto;
+  height: auto;
+  padding-right: 1em;
+}
+/* .youtube-box:before {
+  content: 'Latest on Youtube';
+  position: absolute;
+  mix-blend-mode: initial;
+  margin-top: 25%;
+  float: left;
+  padding: 0.1em;
+  color: black;
+  font-size: 20px;
+  background-color: rgb(225, 225, 225, 0.74);
+} */
+/* Footer Section */
+#socials {
+  font-size: 1.2em;
+}
+a.link-data:hover {
+  color: rgb(222, 222, 222);
+  background-color: limegreen;
+}
+.twitter:hover {
+  content: 'twitter';
+  color: rgb(41, 203, 45);
+  animation: fa-spin 2s infinite linear;
+}
+.twitter {
+  line-height: 150%;
+  color: #f3f3f3;
+  display: inline-block;
+  padding: 0.5em;
+}
+
+@-webkit-keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+@keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+/* body {
+  animation: fadeInAnimation ease 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+} */
+
+/* @keyframes fadeInAnimation {
+  0% {
+    background-color: rgb(41, 203, 45);
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+} */
+
+/* Responsive Section */
+@media screen and (max-width: 500px) {
+  html{
+    position: fixed;
+    height: 100vh;
+    overflow: hidden;
+  }
+  body {
+    position: relative;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
+  }
+  footer{
+    height: 20px;
+  }
+  .card {
+    width: 15em;
+    height: 25em;
+  }
+  .nav-item {
+    font-size: 2em;
+  }
+  label {
+    font-size: 2em;
+  }
+  #btn {
+    font-size: 1em;
+  }
+  iframe {
+    height: auto;
+    width: auto;
+    margin: 0;
+    padding: 0;
+  }
+}
+@media screen and (max-height: 500px) {
+  body {
+    margin: 0;
+    width: 100vw;
+    height: auto;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
+  }
+  
+  .card {
+    width: 10em;
+    height: 20em;
+  }
+  label {
+    font-size: 2em;
+  }
+  #btn {
+    font-size: 1em;
+  }
+  iframe {
+    height: auto;
+    width: auto;
+  }
+}
