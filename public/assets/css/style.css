@@ -53,14 +53,14 @@ section {
 }
 
 /* Link Section */
-section {
+.sectionIndex {
   position: relative;
   background: url('../images/Grey_Grunge4.jpg');
   height: 100%;
   text-align: center;
 }
 .black-layer {
-  background-color: rgba(2, 2, 2, 0.9);
+  background-color: rgba(2, 2, 2, 0.96);
   top: 0;
   left: 0;
   width: 100%;
