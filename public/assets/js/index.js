@@ -10,8 +10,8 @@ const getLatestYoutube = async () => {
       'src',
       'https://www.youtube.com/embed/' + response.items[0].id.videoId
     );
-    latestYouTube$.attr('height', '300em');
-    latestYouTube$.attr('width', '500em');
+    latestYouTube$.attr('height', '300px');
+    latestYouTube$.attr('width', '500px');
     latestYouTube$.attr('allowfullscreen', true);
     latestYouTube$.attr('style', 'border: none;');
     latestYouTube$.attr('class', 'youtube-box');
@@ -20,8 +20,8 @@ const getLatestYoutube = async () => {
   } else {
     const latestYouTube$ = $('<iframe>');
     latestYouTube$.attr('src', 'https://www.youtube.com/embed/0rSERxF2SXg');
-    latestYouTube$.attr('height', '300em');
-    latestYouTube$.attr('width', '500em');
+    latestYouTube$.attr('height', '300px');
+    latestYouTube$.attr('width', '500px');
     latestYouTube$.attr('allowfullscreen', true);
     latestYouTube$.attr('style', 'border: none;');
     latestYouTube$.attr('class', 'youtube-box');

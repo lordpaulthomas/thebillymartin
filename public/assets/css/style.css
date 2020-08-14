@@ -140,17 +140,27 @@ label {
   font-size: 3em;
 }
 
-.youtube-box {
-  width: auto;
-  height: auto;
-}
 .youtube-box:before {
-  content: 'Latest on Youtube';
-  mix-blend-mode: screen;
+  content: '  Youtube / Twitch  ';
+  mix-blend-mode: normal;
   position: absolute;
+
   color: black;
   font-size: 20px;
   background-color: rgb(41, 203, 45);
+  padding-left: 2px;
+  padding-right: 2px;
+}
+.spotify:before{
+  content: '  Spotify  ';
+  mix-blend-mode: normal;
+  position: absolute;
+
+  color: black;
+  font-size: 20px;
+  background-color: rgb(41, 203, 45);
+  padding-left: 3px;
+  padding-right: 3px;
 }
 /* Footer Section */
 
@@ -208,13 +218,13 @@ a.link-data:hover {
 
 /* Responsive Section */
 @media screen and (max-width: 500px) {
-  html{
+  .html{
     position: fixed;
     height: 100vh;
     width: 100vw;
     overflow: hidden;
   }
-  body {
+  .body {
     position: relative;
     margin: 0;
     width: 100vw;
@@ -247,10 +257,10 @@ a.link-data:hover {
   }
 }
 @media screen and (max-height: 500px) {
-  body {
+  .body {
     margin: 0;
     width: 100vw;
-    height: auto;
+    height: 100vh;
     overflow-y: scroll;
     overflow-x: hidden;
     -webkit-overflow-scrolling: touch;
