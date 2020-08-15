@@ -179,19 +179,14 @@ a.link-data:hover {
   padding: 0.5em;
 }
 
-.txt{
-  color: #ffffff;
-  background: #000000;
-  font-size: 20px;
-  text-transform: uppercase;
-}
-.txt::before{
-  content: 'Designed by Paul Thomas';
-  position: absolute;
-  mix-blend-mode: difference;
-  filter: blur(.5px);
-}
 
+.rocket{
+  color: rgba(225, 225, 225, 0.5); 
+  display: inline;
+}
+.rocket:hover{
+  color: rgb(41, 203, 45);
+}
 
 @-webkit-keyframes fa-spin {
   0% {
