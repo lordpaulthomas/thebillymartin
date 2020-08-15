@@ -3,7 +3,6 @@ const getLatestYoutube = async () => {
     method: 'GET',
     url: '/api/youtube',
   });
-  console.log(response);
   if (response.items !== undefined) {
     const latestYouTube$ = $('<iframe>');
     latestYouTube$.attr(
@@ -19,7 +18,7 @@ const getLatestYoutube = async () => {
     $('#youtube-box').attr('style', 'visibility: show;');
   } else {
     const latestYouTube$ = $('<iframe>');
-    latestYouTube$.attr('src', 'https://www.youtube.com/embed/0rSERxF2SXg');
+    latestYouTube$.attr('src', 'https://www.youtube.com/embed/GoFOuKRaF7A');
     latestYouTube$.attr('height', '300px');
     latestYouTube$.attr('width', '500px');
     latestYouTube$.attr('allowfullscreen', true);
