@@ -261,13 +261,13 @@ a.link-data:hover {
   }
 }
 @media screen and (max-height: 500px) {
-  .body {
+  /* .body {
     margin: 0;
     width: 100vw;
     height: 100vh;
     overflow-y: scroll;
     overflow-x: hidden;
-  }
+  } */
   
   .card {
     width: 10em;
