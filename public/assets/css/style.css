@@ -217,7 +217,7 @@ a.link-data:hover {
 
 /* Responsive Section */
 @media screen and (max-width: 500px) {
-  .html{
+  /* .html{
     position: fixed;
     height: 100vh;
     width: 100vw;
@@ -230,7 +230,7 @@ a.link-data:hover {
     height: 100vh;
     overflow-y: visible;
     overflow-x: hidden;
-  }
+  } */
   .card {
     width: 15em;
     height: 25em;
