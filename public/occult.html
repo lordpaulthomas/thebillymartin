@@ -20,21 +20,21 @@
 />
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <!-- Fontawesome LINK -->
     <script src="https://kit.fontawesome.com/59e6be3e18.js"></script>
 <style>
-p {
+h1 {
   display: inline;
-  font-family: 'Nanum Pen Script', cursive;
+  font-family: 'Bebas Neue', cursive;
   font-size: 40px;
   margin-top: 0px;
-  color: black;
+  color: whitesmoke;
 }
 </style>
 </head>
 
-<body style="height: 100%; width: 100%; background-image: url(/assets/images/Occult_web_header_color_Large.jpg); background-size: cover; background-position: center;" >
+<body style="height: 100%; width: 100%; background-color: black;" >
   <nav class="navbar navbar-expand-lg">
     <a href="index.html"
       ><span class="navbar-brand" id="logo"></span
@@ -131,61 +131,42 @@ p {
   </nav>
 
   <!-- Social Fonts -->
-  <section>
-    <div id="socials">
-      <div
-        style="background-color: black;"
-        class="d-flex justify-content-around"
-      >
-        <a class="twitter" href="https://twitter.com/thebillymartin">
-          <i class="fa fa-twitter fa-2x"></i>
-        </a>
-        <a
-          class="twitter"
-          href="https://www.facebook.com/TheBillyMartin"
-        >
-          <i class="fa fa-facebook fa-2x"></i>
-        </a>
-        <a
-          class="twitter"
-          href="https://www.youtube.com/user/BloodzillaBilly"
-        >
-          <i class="fa fa-youtube fa-2x"></i>
-        </a>
-        <a class="twitter" href="https://www.twitch.tv/thebillymartin">
-          <i class="fa fa-twitch fa-2x"></i>
-        </a>
-        <a
-          class="twitter"
-          href="https://open.spotify.com/playlist/4Lb9PYVdZakbFeGLl1lllx?si=2hGnqQs_THKCybmKWcVIDA"
-        >
-          <i class="fa fa-spotify fa-2x"></i>
-        </a>
-        <a class="twitter" href="mailto:info@thebillymartin.com">
-          <i class="fa fa-envelope fa-2x"></i>
-        </a>
-      </div>
-    </div>
+  <section class="text-center">
+ 
+    <a style="font-size: xx-large;"
+    
+      class="discord"
+      href="https://discord.com/invite/Cu5KzA7Z"
+      
+      >Occult Archives Discord  
+      <i class="fab fa-discord"></i>
+    </a>
   </section>
-    <div class="container"> 
-      <div class="row">
-      <section class="d-flex justify-content-center">
-        <img src="/assets/images/0CCV7T_Logo.jpeg" style="height: 30%; width: 30%; padding-top: 5%;">
-      </section>
-    </div>
-    <div class="container-fluid">
-      <div class="row">
-        <section class="col-sm-6" style="padding-top: 5%;">
-          <div class='d-flex justify-content-center'><p id="days"></p></div>
-          <div class='d-flex justify-content-center'><p id="hours"></p></div>
-          <div class='d-flex justify-content-center'><p id="mins"></p></div>
-          <div class='d-flex justify-content-center'><p id="secs"></p></div>
-          <h2 class='d-flex justify-content-center' id="end"></h2>
-        </section>  
-        <section class="col-sm-6">
-         <div class="d-flex justify-content-center"><img src="/assets/images/gif.gif" style="padding: 10%"/></div>
-        </section>
-    </div> 
+        <div class="container"> 
+          <div class="row">
+          <section class="d-flex justify-content-center">
+            <img src="/assets/images/0CCV7T_Logo.jpeg" style="height: 30%; width: 30%; padding-top: 5%;">
+          </section>
+        </div>
+        <div class="container" style="background-image:  linear-gradient(
+          rgba(0, 0, 0, 0.5),
+          rgba(0, 0, 0, 0.5)
+            ), url(/assets/images/Occult_web_header_color_Large.jpg); 
+            background-size: cover; background-position: center;">
+         
+          
+            <section class="col-12">
+             <div class="d-flex justify-content-center"><img src="/assets/images/gif.gif" style="padding: 10%"/></div>
+            </section>
+            <section class="col-12" style="padding-top: 5%;">
+              <h1 class='d-flex justify-content-center'>Mint starts in </h1>
+              <div class='d-flex justify-content-center'><h1 id="days"></h1></div>
+              <div class='d-flex justify-content-center'><h1 id="hours"></h1></div>
+              <div class='d-flex justify-content-center'><h1 id="mins"></h1></div>
+              <div class='d-flex justify-content-center'><h1 id="secs"></h1></div>
+              <h2 class='d-flex justify-content-center' id="end"></h2>
+            </section>  
+     
   </div> 
     <section style="height: 100%;" class="d-flex justify-content-center">
         <video width="100%" height="100%"controls>
@@ -193,8 +174,14 @@ p {
             Your browser does not support the video tag.
         </video>
     </section>
- 
-
+    <section class="text-center">
+    <a 
+      class="discord"
+      href="https://discord.com/invite/Cu5KzA7Z"
+      >Occult Archives Discord  
+      <i class="fab fa-discord"></i>
+    </a>
+  </section>
 
     <script>
     // The data/time we want to countdown to
