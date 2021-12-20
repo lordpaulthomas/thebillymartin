@@ -8,11 +8,11 @@ router.get('/contact', (req, res)=>{
 router.get("*", (req, res)=>{
   res.sendFile(path.join(__dirname, "../public/index.html"));
 });
-router.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, "../public/occult.html"))
-});
+// router.get('/', (req, res) => {
+//   res.sendFile(path.join(__dirname, "../public/occult.html"))
+// });
 
-router.get('/occult', (req, res) => {
-  res.sendFile(path.join(__dirname, "../public/occult.html"))
-});
+// router.get('/occult', (req, res) => {
+//   res.sendFile(path.join(__dirname, "../public/occult.html"))
+// });
 module.exports = router;
